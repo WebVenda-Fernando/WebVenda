@@ -39,15 +39,23 @@ git commit -m "$CommitMessage"
 
 # Push
 Write-Host "Enviando para GitHub..." -ForegroundColor Cyan
-try {
-    git push origin main
+$pushResult = git push origin main 2>&1
+if ($LASTEXITCODE -eq 0) {
     Write-Host "✓ Sincronização concluída com sucesso!" -ForegroundColor Green
-} catch {
-    Write-Host "✗ Erro na sincronização: $($_.Exception.Message)" -ForegroundColor Red
+} else {
+    Write-Host "⚠ Erro na sincronização, tentando resolver..." -ForegroundColor Yellow
     
     # Tentar pull e merge em caso de conflito
-    Write-Host "Tentando resolver conflitos..." -ForegroundColor Yellow
+    Write-Host "Fazendo pull com rebase..." -ForegroundColor Yellow
     git pull origin main --rebase
+    
+    Write-Host "Tentando push novamente..." -ForegroundColor Yellow
     git push origin main
-    Write-Host "✓ Conflitos resolvidos e sincronização concluída!" -ForegroundColor Green
+    
+    if ($LASTEXITCODE -eq 0) {
+        Write-Host "✓ Conflitos resolvidos e sincronização concluída!" -ForegroundColor Green
+    } else {
+        Write-Host "✗ Erro persistente na sincronização" -ForegroundColor Red
+        exit 1
+    }
 }

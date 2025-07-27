@@ -1,0 +1,22 @@
+{
+  "name": "Auto GitHub Sync",
+  "description": "Sincroniza automaticamente mudanças com GitHub",
+  "trigger": {
+    "type": "file_save",
+    "patterns": ["**/*.js", "**/*.ts", "**/*.json", "**/*.md", "**/*.dart", "**/*.yaml", "**/*.yml"]
+  },
+  "actions": [
+    {
+      "type": "shell",
+      "command": "powershell",
+      "args": ["-ExecutionPolicy", "Bypass", "-File", ".kiro/scripts/auto-sync.ps1"],
+      "workingDirectory": ".",
+      "timeout": 30000
+    }
+  ],
+  "settings": {
+    "enabled": true,
+    "debounce": 5000,
+    "runOnStartup": false
+  }
+}

@@ -1,0 +1,10 @@
+# Temporary GraphQL schema - replace with your real schema
+type Query {
+  hello: String
+}
+
+type User {
+  id: ID!
+  email: String!
+  name: String
+}

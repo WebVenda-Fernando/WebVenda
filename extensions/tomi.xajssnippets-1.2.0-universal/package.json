@@ -1,0 +1,63 @@
+{
+    "name":  "xajssnippets",
+    "description":  "React-javascript code snippets.",
+    "version":  "1.2.0",
+    "displayName":  "React - Javascript snippets",
+    "publisher":  "Tomi",
+    "icon":  "images/react.png",
+    "license":  "ISC",
+    "scripts":  {
+                    "build":  "vsce package",
+                    "clean":  "rm -rf xajssnippets-*.vsix"
+                },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/Tom-xacademy/xa-js-snippets.git"
+                   },
+    "keywords":  [
+                     "react",
+                     "javascript",
+                     "codesnippets",
+                     "javascript code snippets",
+                     "react-javascript",
+                     "js code snippets",
+                     "xacademy"
+                 ],
+    "engines":  {
+                    "vscode":  "^0.10.x"
+                },
+    "categories":  [
+                       "Snippets"
+                   ],
+    "contributes":  {
+                        "snippets":  [
+                                         {
+                                             "language":  "javascript",
+                                             "path":  "./snippets/snippets.json"
+                                         },
+                                         {
+                                             "language":  "javascriptreact",
+                                             "path":  "./snippets/snippets.json"
+                                         }
+                                     ]
+                    },
+    "author":  "tamas.xacademy@gmail.com",
+    "bugs":  {
+                 "url":  "https://github.com/Tom-xacademy/xa-js-snippets/issues"
+             },
+    "homepage":  "https://github.com/Tom-xacademy/xa-js-snippets#readme",
+    "__metadata":  {
+                       "id":  "5c53421b-36c3-4d80-ba0f-22fc3011ca67",
+                       "publisherId":  "e1257433-8ca7-40c6-ae91-744c2d49e6ee",
+                       "publisherDisplayName":  "tomi",
+                       "targetPlatform":  "universal",
+                       "isApplicationScoped":  false,
+                       "isPreReleaseVersion":  false,
+                       "hasPreReleaseVersion":  false,
+                       "installedTimestamp":  1753621441575,
+                       "pinned":  false,
+                       "preRelease":  false,
+                       "source":  "gallery"
+                   },
+    "lastUpdated":  1753655027359
+}

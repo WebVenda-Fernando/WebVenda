@@ -1,0 +1,65 @@
+{
+  "name": "GitHub File Watcher",
+  "description": "Monitora mudanças em arquivos e sincroniza automaticamente com GitHub",
+  "trigger": {
+    "type": "file_change",
+    "patterns": [
+      "**/*.js",
+      "**/*.ts", 
+      "**/*.json",
+      "**/*.md",
+      "**/*.dart",
+      "**/*.yaml",
+      "**/*.yml",
+      "**/*.html",
+      "**/*.css",
+      "**/*.scss",
+      "**/*.vue",
+      "**/*.py",
+      "**/*.php"
+    ],
+    "excludePatterns": [
+      "node_modules/**",
+      ".git/**",
+      ".kiro/cache/**",
+      ".kiro/temp/**",
+      "*.log"
+    ]
+  },
+  "conditions": [
+    {
+      "type": "file_exists",
+      "path": ".kiro/settings/github-config.json"
+    },
+    {
+      "type": "config_check",
+      "configPath": ".kiro/settings/github-config.json",
+      "property": "automation.enabled",
+      "value": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "delay",
+      "duration": 3000
+    },
+    {
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy", "Bypass",
+        "-File", ".kiro/scripts/auto-sync.ps1",
+        "-CommitMessage", "feat: Auto-update files via Kiro - {{timestamp}}"
+      ],
+      "workingDirectory": ".",
+      "timeout": 60000,
+      "background": true
+    }
+  ],
+  "settings": {
+    "enabled": true,
+    "debounce": 5000,
+    "maxRetries": 3,
+    "retryDelay": 2000
+  }
+}

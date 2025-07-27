@@ -1,0 +1,13 @@
+{
+  "name": "kiro-setup-temp",
+  "version": "1.0.0",
+  "description": "Temporary setup to satisfy extensions",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Setup mode'"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

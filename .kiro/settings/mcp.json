@@ -1,4 +1,53 @@
 {
   "mcpServers": {
+    "sqlite": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-sqlite",
+        "--db-path",
+        "database.sqlite"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "mcp_sqlite_read_query",
+        "mcp_sqlite_write_query",
+        "mcp_sqlite_create_table",
+        "mcp_sqlite_list_tables",
+        "mcp_sqlite_describe_table",
+        "list_tables",
+        "list_tables",
+        "list_tables",
+        "list_tables",
+        "list_tables",
+        "list_tables"
+      ]
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-fetch"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "mcp_fetch_fetch",
+        "fetch"
+      ]
+    },
+    "git": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-git",
+        "--repository",
+        "."
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "mcp_git_git_status",
+        "mcp_git_git_diff_unstaged",
+        "mcp_git_git_add",
+        "mcp_git_git_commit",
+        "git_status"
+      ]
+    }
   }
 }

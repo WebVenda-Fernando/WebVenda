@@ -1,32 +1,32 @@
-# Script de sincronização automática com GitHub
+﻿# Script de sincronizacao automatica com GitHub
 param(
     [string]$CommitMessage = "Auto-update via Kiro - $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
 )
 
-# Carregar configuração
+# Carregar configuracao
 $configPath = ".kiro/settings/github-config.json"
 if (Test-Path $configPath) {
     $config = Get-Content $configPath | ConvertFrom-Json
     
     if (-not $config.automation.enabled) {
-        Write-Host "Sincronização automática desabilitada" -ForegroundColor Yellow
+        Write-Host "Sincronizacao automatica desabilitada" -ForegroundColor Yellow
         exit 0
     }
 } else {
-    Write-Host "Arquivo de configuração não encontrado: $configPath" -ForegroundColor Red
+    Write-Host "Arquivo de configuracao nao encontrado: $configPath" -ForegroundColor Red
     exit 1
 }
 
-Write-Host "=== SINCRONIZAÇÃO AUTOMÁTICA ===" -ForegroundColor Green
+Write-Host "=== SINCRONIZACAO AUTOMATICA ===" -ForegroundColor Green
 
-# Verificar se há mudanças
+# Verificar se ha mudancas
 $status = git status --porcelain
 if (-not $status) {
-    Write-Host "Nenhuma mudança detectada" -ForegroundColor Yellow
+    Write-Host "Nenhuma mudanca detectada" -ForegroundColor Yellow
     exit 0
 }
 
-Write-Host "Mudanças detectadas:" -ForegroundColor Cyan
+Write-Host "Mudancas detectadas:" -ForegroundColor Cyan
 git status --short
 
 # Adicionar arquivos (respeitando .gitignore)
@@ -41,9 +41,9 @@ git commit -m "$CommitMessage"
 Write-Host "Enviando para GitHub..." -ForegroundColor Cyan
 $pushResult = git push origin main 2>&1
 if ($LASTEXITCODE -eq 0) {
-    Write-Host "✓ Sincronização concluída com sucesso!" -ForegroundColor Green
+    Write-Host "Sincronizacao concluida com sucesso!" -ForegroundColor Green
 } else {
-    Write-Host "⚠ Erro na sincronização, tentando resolver..." -ForegroundColor Yellow
+    Write-Host "Erro na sincronizacao, tentando resolver..." -ForegroundColor Yellow
     
     # Tentar pull e merge em caso de conflito
     Write-Host "Fazendo pull com rebase..." -ForegroundColor Yellow
@@ -53,9 +53,9 @@ if ($LASTEXITCODE -eq 0) {
     git push origin main
     
     if ($LASTEXITCODE -eq 0) {
-        Write-Host "✓ Conflitos resolvidos e sincronização concluída!" -ForegroundColor Green
+        Write-Host "Conflitos resolvidos e sincronizacao concluida!" -ForegroundColor Green
     } else {
-        Write-Host "✗ Erro persistente na sincronização" -ForegroundColor Red
+        Write-Host "Erro persistente na sincronizacao" -ForegroundColor Red
         exit 1
     }
 }

@@ -9,7 +9,16 @@ Este workspace está configurado para desenvolvimento full-stack com integraçã
 - **SDK Completo**: `@supabase/supabase-js` para funcionalidades avançadas
 - **Auto-detecção**: Sistema inteligente que escolhe a ferramenta certa automaticamente
 
+### 🎨 Frontend AI-Powered (MCP Magic)
+- **Geração Automática**: Componentes React, Vue, Angular criados por IA
+- **Estilização Inteligente**: CSS, Tailwind, Styled Components otimizados
+- **Layouts Responsivos**: Design adaptativo para mobile e desktop
+- **Acessibilidade**: Implementação automática de padrões a11y
+- **Performance**: Otimizações automáticas de código frontend
+
 ### 🤖 Comandos de IA Disponíveis
+
+#### Supabase & Database
 ```
 ✅ "listar tabelas do supabase"
 ✅ "mostrar usuário atual"  
@@ -19,6 +28,18 @@ Este workspace está configurado para desenvolvimento full-stack com integraçã
 ✅ "inserir novo usuário na tabela users"
 ✅ "testar conexão com supabase"
 ✅ "status do supabase"
+```
+
+#### Frontend Development (MCP Magic)
+```
+✅ "criar componente React para login"
+✅ "estilizar página com Tailwind CSS"
+✅ "criar formulário responsivo"
+✅ "implementar dark mode"
+✅ "otimizar performance do componente"
+✅ "criar layout com flexbox"
+✅ "adicionar animações CSS"
+✅ "implementar acessibilidade"
 ```
 
 ## 📁 Estrutura do Projeto
@@ -53,6 +74,7 @@ SUPABASE_ANON_KEY=your-anon-key
 - **Git**: Controle de versão
 - **Fetch**: Requisições HTTP
 - **Context7**: Documentação inteligente
+- **@21st-dev/magic**: IA para desenvolvimento frontend (React, Vue, CSS, etc.)
 
 ## 🎯 Como Usar
 
@@ -79,6 +101,7 @@ realtimeService.subscribeToTable('posts', (payload) => {
 ## 📚 Documentação Completa
 
 - **[SUPABASE-SETUP.md](./SUPABASE-SETUP.md)** - Guia completo do Supabase
+- **[MCP-MAGIC-SETUP.md](./MCP-MAGIC-SETUP.md)** - Guia completo do MCP Magic (Frontend AI)
 - **[examples/](./examples/)** - Exemplos práticos
 - **[lib/](./lib/)** - Bibliotecas e utilitários
 

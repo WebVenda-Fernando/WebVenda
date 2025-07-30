@@ -76,6 +76,29 @@
         "supabase_list_tables",
         "supabase_describe_table"
       ]
+    },
+    "@21st-dev/magic": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@21st-dev/magic@latest"
+      ],
+      "env": {
+        "API_KEY": "e89026329800eac1cc2b914d83d04c4c17850fb465f9ce5e95956268c68c3c8b"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "magic_generate_code",
+        "magic_optimize_code",
+        "magic_suggest_improvements",
+        "magic_validate_patterns",
+        "magic_create_component",
+        "magic_style_component",
+        "magic_accessibility_check",
+        "magic_performance_optimize"
+      ]
     }
   }
 }

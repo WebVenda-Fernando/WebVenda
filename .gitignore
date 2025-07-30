@@ -50,6 +50,7 @@ Thumbs.db
 .kiro/cache/
 .kiro/logs/
 .kiro/temp/
+.kiro/settings/flutter/
 
 # Flutter/Dart
 .dart_tool/

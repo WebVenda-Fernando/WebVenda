@@ -1,0 +1,36 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - "**/.dart_tool/**"
+    - "**/build/**"
+    - "**/node_modules/**"
+    - ".kiro/**"
+    - "settings/**"
+    - "**/benchmarks/**"
+    - "**/test_driver/**"
+    - "**/conductor/**"
+    - "**/microbenchmarks/**"
+    - "**/macrobenchmarks/**"
+    - "**/complex_layout/**"
+    - "**/platform_views_layout/**"
+    - "**/platform_channels_benchmarks/**"
+    - "**/multiple_flutters/**"
+    - "**/stocks/**"
+    - "**/flutter/dev/**"
+    - "**/flutter/packages/**"
+    - "**/flutter/examples/**"
+  errors:
+    # Treat missing required parameters as warnings instead of errors
+    missing_required_param: warning
+    # Ignore URI errors for external packages
+    uri_does_not_exist: ignore
+
+linter:
+  rules:
+    # Enable additional rules
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    avoid_print: false
+    prefer_single_quotes: true
+    sort_child_properties_last: true

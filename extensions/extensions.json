@@ -1,1 +1,253 @@
-[{"identifier":{"id":"dart-code.flutter","uuid":"f6c3ec04-6057-4d9c-b997-69cba07a6158"},"version":"3.114.0","location":{"$mid":1,"path":"/c:/Users/User/.kiro/extensions/dart-code.flutter-3.114.0-universal","scheme":"file"},"relativeLocation":"dart-code.flutter-3.114.0-universal","metadata":{"installedTimestamp":1753568574943,"pinned":false,"source":"gallery","id":"f6c3ec04-6057-4d9c-b997-69cba07a6158","publisherId":"a606ecbb-a8fb-4c35-b29a-5e8842d82af2","publisherDisplayName":"Dart-Code","targetPlatform":"universal","updated":true,"isPreReleaseVersion":false,"hasPreReleaseVersion":false}},{"identifier":{"id":"bradlc.vscode-tailwindcss","uuid":"4db62a7c-7d70-419c-96d2-6c3a4dc77ea5"},"version":"0.14.25","location":{"$mid":1,"path":"/c:/Users/User/.kiro/extensions/bradlc.vscode-tailwindcss-0.14.25-universal","scheme":"file"},"relativeLocation":"bradlc.vscode-tailwindcss-0.14.25-universal","metadata":{"installedTimestamp":1753568574960,"pinned":false,"source":"gallery","id":"4db62a7c-7d70-419c-96d2-6c3a4dc77ea5","publisherId":"84722833-669b-4c7d-920e-b60e43fae19a","publisherDisplayName":"bradlc","targetPlatform":"universal","updated":true,"isPreReleaseVersion":false,"hasPreReleaseVersion":false}},{"identifier":{"id":"vue.volar","uuid":"a95ee795-1576-4ffa-acda-8d6e6a95c584"},"version":"3.0.4","location":{"$mid":1,"path":"/c:/Users/User/.kiro/extensions/vue.volar-3.0.4-universal","scheme":"file"},"relativeLocation":"vue.volar-3.0.4-universal","metadata":{"installedTimestamp":1753568574960,"pinned":false,"source":"gallery","id":"a95ee795-1576-4ffa-acda-8d6e6a95c584","publisherId":"49983e2f-38ad-4441-beea-d678b53d0549","publisherDisplayName":"Vue","targetPlatform":"universal","updated":true,"isPreReleaseVersion":false,"hasPreReleaseVersion":false}},{"identifier":{"id":"prisma.prisma-insider","uuid":"225804c9-dd24-47a8-930d-d8776872df56"},"version":"31.0.7517","location":{"$mid":1,"path":"/c:/Users/User/.kiro/extensions/prisma.prisma-insider-31.0.7517-universal","scheme":"file"},"relativeLocation":"prisma.prisma-insider-31.0.7517-universal","metadata":{"installedTimestamp":1753568574960,"pinned":false,"source":"gallery","id":"225804c9-dd24-47a8-930d-d8776872df56","publisherId":"2397d6f3-c7f1-4b03-9029-414f731a68ec","publisherDisplayName":"Prisma","targetPlatform":"universal","updated":true,"isPreReleaseVersion":false,"hasPreReleaseVersion":false}},{"identifier":{"id":"redhat.vscode-yaml","uuid":"2061917f-f76a-458a-8da9-f162de22b97e"},"version":"1.18.0","location":{"$mid":1,"path":"/c:/Users/User/.kiro/extensions/redhat.vscode-yaml-1.18.0-universal","scheme":"file"},"relativeLocation":"redhat.vscode-yaml-1.18.0-universal","metadata":{"installedTimestamp":1753568574960,"pinned":false,"source":"gallery","id":"2061917f-f76a-458a-8da9-f162de22b97e","publisherId":"eed56242-9699-4317-8bc7-e9f4b9bdd3ff","publisherDisplayName":"Red Hat","targetPlatform":"universal","updated":true,"isPreReleaseVersion":false,"hasPreReleaseVersion":false}},{"identifier":{"id":"prisma.prisma","uuid":"33ce9d6b-41cf-4972-a62b-386f7201981d"},"version":"6.7.0","location":{"$mid":1,"path":"/c:/Users/User/.kiro/extensions/prisma.prisma-6.7.0-universal","scheme":"file"},"relativeLocation":"prisma.prisma-6.7.0-universal","metadata":{"installedTimestamp":1753568574960,"pinned":false,"source":"gallery","id":"33ce9d6b-41cf-4972-a62b-386f7201981d","publisherId":"2397d6f3-c7f1-4b03-9029-414f731a68ec","publisherDisplayName":"Prisma","targetPlatform":"universal","updated":true,"isPreReleaseVersion":false,"hasPreReleaseVersion":false}},{"identifier":{"id":"dart-code.dart-code","uuid":"f57f68ea-9ee8-42b5-9a97-041d3e4278c4"},"version":"3.114.2","location":{"$mid":1,"path":"/c:/Users/User/.kiro/extensions/dart-code.dart-code-3.114.2-universal","scheme":"file"},"relativeLocation":"dart-code.dart-code-3.114.2-universal","metadata":{"installedTimestamp":1753568574960,"pinned":false,"source":"gallery","id":"f57f68ea-9ee8-42b5-9a97-041d3e4278c4","publisherId":"a606ecbb-a8fb-4c35-b29a-5e8842d82af2","publisherDisplayName":"Dart-Code","targetPlatform":"universal","updated":true,"isPreReleaseVersion":false,"hasPreReleaseVersion":false}},{"identifier":{"id":"johnpapa.angular2","uuid":"214cbfb9-7c06-4467-bad4-357ae83eb587"},"version":"18.0.2","location":{"$mid":1,"path":"/c:/Users/User/.kiro/extensions/johnpapa.angular2-18.0.2-universal","scheme":"file"},"relativeLocation":"johnpapa.angular2-18.0.2-universal","metadata":{"installedTimestamp":1753568574960,"pinned":false,"source":"gallery","id":"214cbfb9-7c06-4467-bad4-357ae83eb587","publisherId":"4434843a-4ebf-4f44-84f5-4176380c492d","publisherDisplayName":"johnpapa","targetPlatform":"universal","updated":true,"isPreReleaseVersion":false,"hasPreReleaseVersion":false}},{"identifier":{"id":"ms-ceintl.vscode-language-pack-pt-br","uuid":"3fd25437-acd9-42d7-ab19-581a69ce2dd9"},"version":"1.94.0","location":{"$mid":1,"path":"/c:/Users/User/.kiro/extensions/ms-ceintl.vscode-language-pack-pt-br-1.94.0-universal","scheme":"file"},"relativeLocation":"ms-ceintl.vscode-language-pack-pt-br-1.94.0-universal","metadata":{"isApplicationScoped":true,"installedTimestamp":1753568574960,"pinned":false,"source":"gallery","id":"3fd25437-acd9-42d7-ab19-581a69ce2dd9","publisherId":"0b0882c3-aee3-4d7c-b5f9-872f9be0a115","publisherDisplayName":"MS-CEINTL","targetPlatform":"universal","updated":true,"isPreReleaseVersion":false,"hasPreReleaseVersion":false}},{"identifier":{"id":"eventyret.bootstrap-4-cdn-snippet","uuid":"d7984624-a02f-4b0b-9742-9bc68192320b"},"version":"1.13.0","location":{"$mid":1,"path":"/c:/Users/User/.kiro/extensions/eventyret.bootstrap-4-cdn-snippet-1.13.0-universal","scheme":"file"},"relativeLocation":"eventyret.bootstrap-4-cdn-snippet-1.13.0-universal","metadata":{"installedTimestamp":1753568574960,"pinned":false,"source":"gallery","id":"d7984624-a02f-4b0b-9742-9bc68192320b","publisherId":"f8008e80-8151-4253-a551-38ff425a0b30","publisherDisplayName":"eventyret","targetPlatform":"universal","updated":true,"isPreReleaseVersion":false,"hasPreReleaseVersion":false}},{"identifier":{"id":"graphql.vscode-graphql-syntax","uuid":"e1ab76b1-9acd-4ffa-baf7-1d9eaf7cf3d2"},"version":"1.3.8","location":{"$mid":1,"path":"/c:/Users/User/.kiro/extensions/graphql.vscode-graphql-syntax-1.3.8-universal","scheme":"file"},"relativeLocation":"graphql.vscode-graphql-syntax-1.3.8-universal","metadata":{"installedTimestamp":1753568574960,"pinned":false,"source":"gallery","id":"e1ab76b1-9acd-4ffa-baf7-1d9eaf7cf3d2","publisherId":"9d328ac4-bbff-4fd6-95dd-57cb0830ba22","publisherDisplayName":"GraphQL Foundation","targetPlatform":"universal","updated":true,"isPreReleaseVersion":false,"hasPreReleaseVersion":false}},{"identifier":{"id":"graphql.vscode-graphql","uuid":"55ef6448-487b-49a0-a66e-4d2d9bb82229"},"version":"0.13.0","location":{"$mid":1,"path":"/c:/Users/User/.kiro/extensions/graphql.vscode-graphql-0.13.0-universal","scheme":"file"},"relativeLocation":"graphql.vscode-graphql-0.13.0-universal","metadata":{"installedTimestamp":1753568574960,"pinned":false,"source":"gallery","id":"55ef6448-487b-49a0-a66e-4d2d9bb82229","publisherId":"9d328ac4-bbff-4fd6-95dd-57cb0830ba22","publisherDisplayName":"GraphQL Foundation","targetPlatform":"universal","updated":true,"isPreReleaseVersion":false,"hasPreReleaseVersion":false}},{"identifier":{"id":"msjsdiag.vscode-react-native","uuid":"b35cd5b4-18db-46f9-ba9e-06096c3b22d3"},"version":"1.13.0","location":{"$mid":1,"path":"/c:/Users/User/.kiro/extensions/msjsdiag.vscode-react-native-1.13.0-universal","scheme":"file"},"relativeLocation":"msjsdiag.vscode-react-native-1.13.0-universal","metadata":{"installedTimestamp":1753568574960,"pinned":false,"source":"gallery","id":"b35cd5b4-18db-46f9-ba9e-06096c3b22d3","publisherId":"ecde0778-6fe5-4f72-93a7-196989f19e58","publisherDisplayName":"msjsdiag","targetPlatform":"universal","updated":true,"isPreReleaseVersion":false,"hasPreReleaseVersion":false}},{"identifier":{"id":"tomi.xasnippets","uuid":"706b9f6a-3f3a-4dc9-a585-5b6c62f8fade"},"version":"2.13.1","location":{"$mid":1,"path":"/c:/Users/User/.kiro/extensions/tomi.xasnippets-2.13.1-universal","scheme":"file"},"relativeLocation":"tomi.xasnippets-2.13.1-universal","metadata":{"installedTimestamp":1753568574960,"pinned":false,"source":"gallery","id":"706b9f6a-3f3a-4dc9-a585-5b6c62f8fade","publisherId":"e1257433-8ca7-40c6-ae91-744c2d49e6ee","publisherDisplayName":"tomi","targetPlatform":"universal","updated":true,"isPreReleaseVersion":false,"hasPreReleaseVersion":false}},{"identifier":{"id":"tomi.xajssnippets","uuid":"5c53421b-36c3-4d80-ba0f-22fc3011ca67"},"version":"1.2.0","location":{"$mid":1,"path":"/c:/Users/User/.kiro/extensions/tomi.xajssnippets-1.2.0-universal","scheme":"file"},"relativeLocation":"tomi.xajssnippets-1.2.0-universal","metadata":{"installedTimestamp":1753568574960,"pinned":false,"source":"gallery","id":"5c53421b-36c3-4d80-ba0f-22fc3011ca67","publisherId":"e1257433-8ca7-40c6-ae91-744c2d49e6ee","publisherDisplayName":"tomi","targetPlatform":"universal","updated":true,"isPreReleaseVersion":false,"hasPreReleaseVersion":false}},{"identifier":{"id":"ckolkman.vscode-postgres","uuid":"b200e7e8-4217-4da9-b8db-5606db56d867"},"version":"1.4.3","location":{"$mid":1,"path":"/c:/Users/User/.kiro/extensions/ckolkman.vscode-postgres-1.4.3-universal","scheme":"file"},"relativeLocation":"ckolkman.vscode-postgres-1.4.3-universal","metadata":{"installedTimestamp":1753568574960,"pinned":false,"source":"gallery","id":"b200e7e8-4217-4da9-b8db-5606db56d867","publisherId":"7a200ada-7d6e-4083-99e7-974f31cf3bff","publisherDisplayName":"ckolkman","targetPlatform":"universal","updated":true,"isPreReleaseVersion":false,"hasPreReleaseVersion":false}},{"identifier":{"id":"knisterpeter.vscode-github","uuid":"8699dfcb-4beb-4760-b976-c46dcdd87df2"},"version":"0.30.7","location":{"$mid":1,"path":"/c:/Users/User/.kiro/extensions/knisterpeter.vscode-github-0.30.7-universal","scheme":"file"},"relativeLocation":"knisterpeter.vscode-github-0.30.7-universal","metadata":{"installedTimestamp":1753568574962,"pinned":false,"source":"gallery","id":"8699dfcb-4beb-4760-b976-c46dcdd87df2","publisherId":"b0d75e1c-cb67-4716-ab82-786fa4c02e04","publisherDisplayName":"KnisterPeter","targetPlatform":"universal","updated":true,"isPreReleaseVersion":false,"hasPreReleaseVersion":false}}]
+[
+  {
+    "identifier": {
+      "id": "dart-code.flutter",
+      "uuid": "f6c3ec04-6057-4d9c-b997-69cba07a6158"
+    },
+    "version": "3.114.0",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/User/.kiro/extensions/dart-code.flutter-3.114.0-universal",
+      "scheme": "file"
+    },
+    "relativeLocation": "dart-code.flutter-3.114.0-universal",
+    "metadata": {
+      "installedTimestamp": 1753568574943,
+      "pinned": false,
+      "source": "gallery",
+      "id": "f6c3ec04-6057-4d9c-b997-69cba07a6158",
+      "publisherId": "a606ecbb-a8fb-4c35-b29a-5e8842d82af2",
+      "publisherDisplayName": "Dart-Code",
+      "targetPlatform": "universal",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "bradlc.vscode-tailwindcss",
+      "uuid": "4db62a7c-7d70-419c-96d2-6c3a4dc77ea5"
+    },
+    "version": "0.14.25",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/User/.kiro/extensions/bradlc.vscode-tailwindcss-0.14.25-universal",
+      "scheme": "file"
+    },
+    "relativeLocation": "bradlc.vscode-tailwindcss-0.14.25-universal",
+    "metadata": {
+      "installedTimestamp": 1753568574960,
+      "pinned": false,
+      "source": "gallery",
+      "id": "4db62a7c-7d70-419c-96d2-6c3a4dc77ea5",
+      "publisherId": "84722833-669b-4c7d-920e-b60e43fae19a",
+      "publisherDisplayName": "bradlc",
+      "targetPlatform": "universal",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "vue.volar",
+      "uuid": "a95ee795-1576-4ffa-acda-8d6e6a95c584"
+    },
+    "version": "3.0.4",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/User/.kiro/extensions/vue.volar-3.0.4-universal",
+      "scheme": "file"
+    },
+    "relativeLocation": "vue.volar-3.0.4-universal",
+    "metadata": {
+      "installedTimestamp": 1753568574960,
+      "pinned": false,
+      "source": "gallery",
+      "id": "a95ee795-1576-4ffa-acda-8d6e6a95c584",
+      "publisherId": "49983e2f-38ad-4441-beea-d678b53d0549",
+      "publisherDisplayName": "Vue",
+      "targetPlatform": "universal",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "prisma.prisma",
+      "uuid": "33ce9d6b-41cf-4972-a62b-386f7201981d"
+    },
+    "version": "6.7.0",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/User/.kiro/extensions/prisma.prisma-6.7.0-universal",
+      "scheme": "file"
+    },
+    "relativeLocation": "prisma.prisma-6.7.0-universal",
+    "metadata": {
+      "installedTimestamp": 1753568574960,
+      "pinned": false,
+      "source": "gallery",
+      "id": "33ce9d6b-41cf-4972-a62b-386f7201981d",
+      "publisherId": "2397d6f3-c7f1-4b03-9029-414f731a68ec",
+      "publisherDisplayName": "Prisma",
+      "targetPlatform": "universal",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "dart-code.dart-code",
+      "uuid": "f57f68ea-9ee8-42b5-9a97-041d3e4278c4"
+    },
+    "version": "3.114.2",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/User/.kiro/extensions/dart-code.dart-code-3.114.2-universal",
+      "scheme": "file"
+    },
+    "relativeLocation": "dart-code.dart-code-3.114.2-universal",
+    "metadata": {
+      "installedTimestamp": 1753568574960,
+      "pinned": false,
+      "source": "gallery",
+      "id": "f57f68ea-9ee8-42b5-9a97-041d3e4278c4",
+      "publisherId": "a606ecbb-a8fb-4c35-b29a-5e8842d82af2",
+      "publisherDisplayName": "Dart-Code",
+      "targetPlatform": "universal",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "johnpapa.angular2",
+      "uuid": "214cbfb9-7c06-4467-bad4-357ae83eb587"
+    },
+    "version": "18.0.2",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/User/.kiro/extensions/johnpapa.angular2-18.0.2-universal",
+      "scheme": "file"
+    },
+    "relativeLocation": "johnpapa.angular2-18.0.2-universal",
+    "metadata": {
+      "installedTimestamp": 1753568574960,
+      "pinned": false,
+      "source": "gallery",
+      "id": "214cbfb9-7c06-4467-bad4-357ae83eb587",
+      "publisherId": "4434843a-4ebf-4f44-84f5-4176380c492d",
+      "publisherDisplayName": "johnpapa",
+      "targetPlatform": "universal",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "ms-ceintl.vscode-language-pack-pt-br",
+      "uuid": "3fd25437-acd9-42d7-ab19-581a69ce2dd9"
+    },
+    "version": "1.94.0",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/User/.kiro/extensions/ms-ceintl.vscode-language-pack-pt-br-1.94.0-universal",
+      "scheme": "file"
+    },
+    "relativeLocation": "ms-ceintl.vscode-language-pack-pt-br-1.94.0-universal",
+    "metadata": {
+      "isApplicationScoped": true,
+      "installedTimestamp": 1753568574960,
+      "pinned": false,
+      "source": "gallery",
+      "id": "3fd25437-acd9-42d7-ab19-581a69ce2dd9",
+      "publisherId": "0b0882c3-aee3-4d7c-b5f9-872f9be0a115",
+      "publisherDisplayName": "MS-CEINTL",
+      "targetPlatform": "universal",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "redhat.vscode-yaml",
+      "uuid": "2061917f-f76a-458a-8da9-f162de22b97e"
+    },
+    "version": "1.18.0",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/User/.kiro/extensions/redhat.vscode-yaml-1.18.0-universal",
+      "scheme": "file"
+    },
+    "relativeLocation": "redhat.vscode-yaml-1.18.0-universal",
+    "metadata": {
+      "installedTimestamp": 1753568574960,
+      "pinned": false,
+      "source": "gallery",
+      "id": "2061917f-f76a-458a-8da9-f162de22b97e",
+      "publisherId": "eed56242-9699-4317-8bc7-e9f4b9bdd3ff",
+      "publisherDisplayName": "Red Hat",
+      "targetPlatform": "universal",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "msjsdiag.vscode-react-native",
+      "uuid": "b35cd5b4-18db-46f9-ba9e-06096c3b22d3"
+    },
+    "version": "1.13.0",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/User/.kiro/extensions/msjsdiag.vscode-react-native-1.13.0-universal",
+      "scheme": "file"
+    },
+    "relativeLocation": "msjsdiag.vscode-react-native-1.13.0-universal",
+    "metadata": {
+      "installedTimestamp": 1753568574960,
+      "pinned": false,
+      "source": "gallery",
+      "id": "b35cd5b4-18db-46f9-ba9e-06096c3b22d3",
+      "publisherId": "ecde0778-6fe5-4f72-93a7-196989f19e58",
+      "publisherDisplayName": "msjsdiag",
+      "targetPlatform": "universal",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "ckolkman.vscode-postgres",
+      "uuid": "b200e7e8-4217-4da9-b8db-5606db56d867"
+    },
+    "version": "1.4.3",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/User/.kiro/extensions/ckolkman.vscode-postgres-1.4.3-universal",
+      "scheme": "file"
+    },
+    "relativeLocation": "ckolkman.vscode-postgres-1.4.3-universal",
+    "metadata": {
+      "installedTimestamp": 1753568574960,
+      "pinned": false,
+      "source": "gallery",
+      "id": "b200e7e8-4217-4da9-b8db-5606db56d867",
+      "publisherId": "7a200ada-7d6e-4083-99e7-974f31cf3bff",
+      "publisherDisplayName": "ckolkman",
+      "targetPlatform": "universal",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  }
+]

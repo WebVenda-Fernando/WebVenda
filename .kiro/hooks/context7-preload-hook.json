@@ -1,0 +1,37 @@
+{
+  "name": "Context7 Preloader",
+  "description": "Pré-carrega bibliotecas populares no cache do Context7",
+  "trigger": {
+    "type": "startup"
+  },
+  "conditions": [
+    {
+      "type": "config_check",
+      "configPath": ".kiro/settings/context7-config.json",
+      "property": "performance.preloadPopular",
+      "value": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "delay",
+      "duration": 5000
+    },
+    {
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy", "Bypass",
+        "-File", ".kiro/scripts/context7-preloader.ps1"
+      ],
+      "workingDirectory": ".",
+      "timeout": 120000,
+      "background": true
+    }
+  ],
+  "settings": {
+    "enabled": true,
+    "runOnStartup": true,
+    "maxRetries": 1
+  }
+}

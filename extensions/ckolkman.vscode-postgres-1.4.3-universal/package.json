@@ -1,4 +1,4 @@
-{
+﻿{
     "name":  "vscode-postgres",
     "displayName":  "PostgreSQL",
     "description":  "PostgreSQL Management Tool",
@@ -15,9 +15,6 @@
     "categories":  [
                        "Other"
                    ],
-    "activationEvents":  [
-                             "*"
-                         ],
     "main":  "./out/extension",
     "contributes":  {
                         "languages":  [

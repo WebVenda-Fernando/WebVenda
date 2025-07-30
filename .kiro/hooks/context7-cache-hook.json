@@ -1,0 +1,33 @@
+{
+  "name": "Context7 Cache Management",
+  "description": "Gerencia cache inteligente do Context7 automaticamente",
+  "trigger": {
+    "type": "interval",
+    "interval": "30m"
+  },
+  "conditions": [
+    {
+      "type": "file_exists",
+      "path": ".kiro/cache/context7"
+    }
+  ],
+  "actions": [
+    {
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy", "Bypass",
+        "-File", ".kiro/scripts/context7-cache-manager.ps1",
+        "-Action", "cleanup"
+      ],
+      "workingDirectory": ".",
+      "timeout": 30000,
+      "background": true
+    }
+  ],
+  "settings": {
+    "enabled": true,
+    "runOnStartup": false,
+    "maxRetries": 2
+  }
+}

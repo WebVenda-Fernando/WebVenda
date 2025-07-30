@@ -1,4 +1,4 @@
-{
+﻿{
     "name":  "vscode-yaml",
     "displayName":  "YAML",
     "description":  "YAML Language Support by Red Hat, with built-in Kubernetes syntax support",
@@ -38,11 +38,6 @@
                                                  },
                          "virtualWorkspaces":  true
                      },
-    "activationEvents":  [
-                             "onLanguage:yaml",
-                             "onLanguage:dockercompose",
-                             "onLanguage:github-actions-workflow"
-                         ],
     "keywords":  [
                      "kubernetes",
                      "yaml",

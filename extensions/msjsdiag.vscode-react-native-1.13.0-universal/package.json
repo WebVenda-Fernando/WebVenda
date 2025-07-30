@@ -1,4 +1,4 @@
-{
+﻿{
     "name":  "vscode-react-native",
     "displayName":  "React Native Tools",
     "version":  "1.13.0",
@@ -28,26 +28,6 @@
                        "Debuggers",
                        "Other"
                    ],
-    "activationEvents":  [
-                             "workspaceContains:node_modules/react-native",
-                             "onDebugResolve:reactnative",
-                             "onDebugResolve:reactnativedirect",
-                             "onDebugDynamicConfigurations:reactnative",
-                             "onDebugInitialConfigurations",
-                             "onCommand:reactNative.runAndroidSimulator",
-                             "onCommand:reactNative.runAndroidDevice",
-                             "onCommand:reactNative.runIosSimulator",
-                             "onCommand:reactNative.runIosDevice",
-                             "onCommand:reactNative.runExponent",
-                             "onCommand:reactNative.startPackager",
-                             "onCommand:reactNative.stopPackager",
-                             "onCommand:reactNative.restartPackager",
-                             "onCommand:reactNative.publishToExpHost",
-                             "onCommand:reactNative.showDevMenu",
-                             "onCommand:reactNative.reloadApp",
-                             "onCommand:reactNative.runInspector",
-                             "onCommand:reactNative.testDevEnvironment"
-                         ],
     "main":  "/dist/rn-extension",
     "contributes":  {
                         "walkthroughs":  [

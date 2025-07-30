@@ -1,5 +1,18 @@
 {
   "mcpServers": {
+    "context7": {
+      "command": "node",
+      "args": [
+        "context7-mcp/dist/index.js"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "mcp_context7_resolve_library_id",
+        "mcp_context7_get_library_docs",
+        "resolve-library-id",
+        "get-library-docs"
+      ]
+    },
     "sqlite": {
       "command": "uvx",
       "args": [
@@ -47,6 +60,21 @@
         "mcp_git_git_add",
         "mcp_git_git_commit",
         "git_status"
+      ]
+    },
+    "supabase-mcp": {
+      "transport": {
+        "type": "http",
+        "url": "https://server.smithery.ai/@supabase-community/supabase-mcp/mcp?api_key=f78f7ac6-7b91-4f89-829e-f8d13010dc0c&profile=fierce-gecko-huw3eE"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "supabase_query",
+        "supabase_insert", 
+        "supabase_update",
+        "supabase_delete",
+        "supabase_list_tables",
+        "supabase_describe_table"
       ]
     }
   }
